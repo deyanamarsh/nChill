@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Bamboo" translatesAutoresizingMaskIntoConstraints="NO" id="RHV-Gf-pLQ">
+                                <rect key="frame" x="169" y="231" width="108" height="436"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RHV-Gf-pLQ" secondAttribute="height" multiplier="27:109" id="65A-Oc-ZXi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="n' Chill" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgF-oL-jRp">
+                                <rect key="frame" x="20" y="67" width="335" height="106"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <color key="textColor" red="0.15198460759999999" green="0.56681528140000004" blue="0.26974555140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.6588235294117647" green="0.8784313725490196" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RHV-Gf-pLQ" firstAttribute="top" secondItem="OgF-oL-jRp" secondAttribute="bottom" constant="49" id="0Ts-0R-1Mx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OgF-oL-jRp" secondAttribute="trailing" id="96n-Za-QgY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RHV-Gf-pLQ" secondAttribute="bottom" id="NQi-oa-HIX"/>
+                            <constraint firstItem="OgF-oL-jRp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ai8-QK-hQT"/>
+                            <constraint firstItem="OgF-oL-jRp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="50" id="t7c-hP-7Y5"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254.5" y="148.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bamboo" width="164" height="670"/>
+    </resources>
+</document>
